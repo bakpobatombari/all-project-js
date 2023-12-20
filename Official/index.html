@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unisec ICT club Website</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <script src="assets/js/app.js"></script>
+
+    <nav class="navbar">
+        <div class="logo"></div>
+        <h1 style="font-size: 30px; margin-left: 10px; font-weight: 300;">ICT CLUB</h1>
+        <ul class="nav-items">
+            <li class="n-list"><a href="">Home</a></li>
+
+            <li class="n-list"><a href="">About</a></li>
+
+            <li class="n-list"><a href="">Contact</a></li>
+
+            <li class="n-list"><a href="">Join</a></li>
+        </ul>
+    </nav>
+    
+    <section aria-labelledby="Home">
+        <div class="homepage">
+            <div class="sub-container">
+                <div class="subscribe" id="subscribe">
+                    <button class="close-btn" onclick="closeForm()">X</button>
+                    <h3 style="text-align: center; font-family: serif;">SUBSCRIBE</h3>
+                    <label for="Name">Name</label>
+                    <input type="text" name="Name" id="Name">
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email">
+                    <label for="Date">Date</label>
+                    <input type="datetime-local" name="Date" id="Date">
+                    <h1 style="color: red; font-family: serif;" id="error"></h1>
+                    <center><button id="sub-button" onclick="subscribe()">Subscribe</button></center>
+                    
+                </div>
+                <center>
+                    <h3 id="thankyou" style="position: relative;;top: 200px;"></h3>
+                    <button class="sub-click" id="spawn" onclick="openForm()">Subscribe</button>
+                </center>
+            </div>
+        </div>
+    </section>
+
+    <section aria-labelledby="About" style="padding-top: 100vh;">
+        <center>
+            <h2>ABOUT</h2>
+        <div class="box" style="margin: auto !important;">
+    <div style="display: flex; margin-left: 220px; margin-bottom: 50px;">
+        <div class="card">
+            <div class="div" style="display: flex;">
+                <div class="avatar">
+                    <h3>Batom</h3>
+                </div>
+            <div class="writeup"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="writeup"></div>
+        </div>
+    </div>
+    <div style="display: flex; margin: auto; margin-left: 220px;">
+        <div class="card">
+            <div class="writeup"></div>
+        </div>
+        <div class="card">
+            <div class="writeup"></div>
+        </div>
+    </div> 
+</div>
+</center>
+    </section>
+
+    <section aria-labelledby="Conact"></section>
+
+    <section aria-labelledby="Join"></section>
+</body>
+</html> 

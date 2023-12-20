@@ -1,0 +1,160 @@
+
+.navbar{
+    height:60px;
+    background-color: rgba(158, 158, 158, 0.719);
+    position: fixed;
+    z-index: 1;
+    top:0;
+    width: 100%;
+    left: 0;
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    font-family: serif;
+}
+.nav-items{
+    right: 30px;
+    position: absolute;
+    display: flex;
+    list-style: none;
+}
+.n-list{
+    margin-right: 20px;
+}
+.n-list a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    overflow-x: hidden;
+}
+.homepage{
+    overflow-x:hidden;
+    background: linear-gradient(white,rgb(0, 195, 255));
+    height:93vh;
+    width: 100vw;
+    left: 0;
+    position: absolute;
+    padding-top: 30px;
+}
+.sub-container{
+    height:500px;
+    width: 90vw;
+    margin: auto;
+    background-color: rgba(197, 196, 196, 0.356);
+}
+.subscribe{
+    height:480px;
+    background-color: rgba(85, 107, 47, 0.459);
+    width:80vw;
+    margin: auto;
+    display: none;
+    z-index: 20;
+    position: relative;
+    top:20px;
+}
+.subscribe input{
+    display: block;
+    height:40px;
+    width: 70vw;
+    margin: auto;
+}
+.subscribe h3{
+    margin-top:30px !important;
+}
+.subscribe label{
+    margin-left: 7%;
+}
+.close-btn{
+    height:50px;
+    position: absolute;
+    right: 0;
+    width:50px;
+    border: none;
+    color: red;
+    background-color: white;
+}
+.sub-click{
+    height:60px;
+    background: blue;
+    border: 2px solid white;
+    width: 20vw;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top:30vh;
+}
+.sub-click:hover{
+    transition: 1s;
+    color: blue;
+    background-color: white;
+    border: 2px blue solid;
+}
+#sub-button{
+    height: 50px;
+    background-color: darkgreen;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    top:40px;
+    width:30vw;
+    color: white;
+}
+.box{
+    animation: infinite box 8s;
+    background-color: white;
+}
+@keyframes box{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+       transform: translateY(30px);
+    }
+    100%{
+       transform:  translateY(0px);
+    }
+}
+
+.card{
+    height:200px;
+    background-color: rgb(135, 187, 222);
+    border: 1px solid black;
+    width: 40%;
+    margin-right: 40px;
+    animation: card infinite 8s;
+    transition: 3s;
+}
+@keyframes card{
+     0%{
+        background: rgb(255, 255, 255);
+        border: 1px solid black;
+        transform: translateX(0px);
+     }
+     50%{
+        transform: translateY(20px);
+        transform: translateX(100px);
+        background:rgb(12, 64, 131);
+     }
+     100%{
+        background-color: rgb(4, 71, 116);
+        transform: translateX(0px);
+        transform:  translateY(0px);
+     }
+}
+
+.avatar{
+    height:189px;
+    background: white;
+    border: 1px solid black;
+    width:40%;
+    border-radius: 20%;
+    padding-left: 10px;
+    padding-top: 10px;
+    animation: avatar infinite 5s;
+}
+@keyframes avatar{
+  0%{transform:translateZ(0px)} 
+  100%{transform: translateZ(100px);}
+}
