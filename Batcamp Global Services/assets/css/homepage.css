@@ -1,0 +1,44 @@
+.body{
+    font-family: serif;
+}
+.welcome{
+    height:300px
+}
+.underline{
+    height: 3px;
+    background-color: navy;
+    border-radius: 10px;
+}
+.straight-line{
+    height:260px;
+    background-color: rgb(255, 255, 255);
+    width: 3px;
+}
+.straight-lineb{
+    height:260px;
+    background-color: navy;
+    width: 3px;
+}
+.footer{
+    margin-top: 20px;
+    height:100px;
+    bottom: 0;
+    color: white;
+    background: linear-gradient(80deg,navy,rgb(41, 113, 207));
+}
+.top{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    height:40px;
+    border-radius: 5px;
+}
+.top a{
+    text-decoration: none;
+    color:white;
+}
+.offer:hover{
+    background-color: navy;
+    color: white;
+    transition: 0.8s;
+}

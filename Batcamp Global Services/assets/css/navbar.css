@@ -1,0 +1,14 @@
+#webnav{
+    height:70px;
+    background:linear-gradient(80deg,navy,rgb(67, 167, 255));
+    font-family: serif;
+}
+.logo{
+    height:60px;
+}
+.circle{
+    border-radius: 50%;
+    height:60px;
+    background-color: rgba(207, 207, 207, 0.329);
+    border: 2px rgb(224, 224, 224) solid;
+}
